@@ -1,0 +1,183 @@
+/**
+ * pp1_3
+ *
+ * Write a program that prints, on separate lines, your name, your birthday, your hobbies, your favorite 
+   book, and your favorite movie. Label each piece of information in the output.
+ *
+ *
+ * @ Daniel Matthews
+ * @ 11-25-2019
+ */
+
+
+
+public class pp1_3
+{
+    public static void main(String[] args){
+        System.out.println("An Emergency Broadcast");
+        System.out.println("Name: Daniel Matthews");
+        System.out.println("Birthday: July 3 2001");
+        System.out.println("Favorite book: The mouse who ate a cookie");
+        System.out.println("Favorite movie: Inglorious Bastards");
+        
+    }
+    
+}
+
+
+
+
+/******************************
+
+PP1_6
+
+Description: a program that prints the outline of a tree using asterisk (*) characters.
+
+Author: Daniel Matthews
+
+Date: 29 November 2019
+
+*****************************/
+public class PP1_6 {
+
+	public static void main(String[] args) {
+		
+		//prints each segment on a new line
+		System.out.println("    *");
+		System.out.println("   ***");
+		System.out.println("  *****");
+		System.out.println(" *******");
+		}
+
+	}
+
+
+/******************************
+
+PP1_7
+
+Description: Write a program that prints a paragraph from a novel of your choice.
+
+Author: Daniel Matthews
+
+Date: 29 November 2019
+
+*****************************/
+
+
+public class PP1_7 {
+
+	public static void main(String[] args) {
+		
+		
+		//prints opening paragraph of Harry Potter and the Sorcerers Stone
+		System.out.println("Mr and Mrs Dursley, of number four, Privet Drive, were proud to\r\n" + 
+				"say that they were perfectly normal, thank you very much. They\r\n" + 
+				"were the last people you’d expect to be involved in anything\r\n" + 
+				"strange or mysterious, because they just didn’t hold with such\r\n" + 
+				"nonsense. ");
+
+	}
+
+}
+
+/******************************
+
+PP1_8
+
+Description:Write a program that prints the phrase Knowledge is Power
+
+Author: Daniel Matthews
+
+Date: 29 November 2019
+
+*****************************/
+
+public class PP1_8 {
+
+	public static void main(String[] args) {
+		//on one line
+		System.out.println("Knowledge is Power");
+		
+		//on three lines, one word per line, with the words centered ­relative to each other
+		System.out.println("Knowledge \nis \nPower \n");
+		
+		//inside a box made up of the characters = and |
+		System.out.println("====================");
+		System.out.println("|Knowledge is Power|");
+		System.out.println("====================");
+	}
+
+}
+
+/******************************
+
+PP1_9
+
+Description:  Write a program that prints the following diamond shape:
+ 	 *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+
+Author: Daniel Matthews
+
+Date: 29 November 2019
+
+*****************************/
+
+public class PP1_9 {
+
+	public static void main(String[] args) {
+		
+		//prints the shape
+		System.out.println("     *\r\n" + 
+				"    ***\r\n" + 
+				"   *****\r\n" + 
+				"  *******\r\n" + 
+				" *********\r\n" + 
+				"  *******\r\n" + 
+				"   *****\r\n" + 
+				"    ***\r\n" + 
+				"     *");
+	}
+
+}
+
+
+/******************************
+
+PP1_10
+
+Description: Write a program that displays your initials in large block letters. Make each large letter out 
+of the corresponding regular character
+
+Author: Daniel Matthews
+
+Date: 29 November 2019
+
+*****************************/
+
+
+public class PP1_10 {
+
+	public static void main(String[] args) {
+		
+		//print DWM
+		//output spacing between letters may get messed up depending on IDE used
+		System.out.println("DDDDDDDD          WW  WWWWW  WW    MMMM   MMMM");
+		System.out.println("D       D         WW  WW WW  WW    MM  M M  MM");
+		System.out.println("D        D        WW  WW WW  WW    MM  M M  MM");
+		System.out.println("D        D	  WW  WW WW  WW    MM  M M  MM");
+		System.out.println("D       D	  WW  WW WW  WW    MM  M M  MM");  
+		System.out.println("DDDDDDDD	  WWWW     WWWW    MM  MMM  MM");
+
+	}
+
+}
+
